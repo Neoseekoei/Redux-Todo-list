@@ -7,9 +7,9 @@ import Todos from './components/Todos'
 export default function App() {
   return (
     <Provider store={store}>
-      <View style={styles.container}>
+     
         <Todos />
-      </View>
+      
     </Provider>
   );
 }
